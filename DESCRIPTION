@@ -1,0 +1,17 @@
+Package: knnAUC
+Type: Package
+Title: k-nearest neighbors AUC test
+Version: 3.0.2
+Authors@R: person("Li", "Yi", email = "liyistat@gmail.com",
+                  role = c("aut", "cre"))
+Description:knnAUC : k-nearest neighbors AUC test.Testing dependence/correlation of two variables is one of the fundamental tasks in statistics.In this work, we proposed a new way of testing nonlinear dependence between one continuous variable (X) and one binary variable (Y).We addressed this research question by using R package 'knnAUC'.In the knnAUC framework, we first calculated the AUC estimator based on a k-nearest neighbors classifier, and then evaluate the significance of the AUC based statistic (Alternative hypothesis: AUC > 0.5, that is to say, X has prediction power for Y).
+Imports:
+   ROCR,
+   verification,
+   compiler,
+   RWeka,
+   data.table,
+   purrr
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 6.0.1
