@@ -4,7 +4,7 @@ k-nearest neighbors AUC test (R Package: https://github.com/liyistat/knnAUC)
 
 # Recommended knnAUC R package installation
 ```{r}
-devtools::install_github("liyistat/knnAUC");
+devtools::install_github("liyistat/knnAUC", force =T);
 library(knnAUC);
 help(knnAUC)
 ```
